@@ -1,4 +1,4 @@
-require File.dirname(__FILE__) + '/test_helper.rb'
+require File.expand_path("../test_helper.rb", __FILE__)
 
 class TestMatcherBuilder < Matchy.test_case_class
   include Matchy::MatcherBuilder
